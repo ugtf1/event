@@ -1,0 +1,90 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    background: #f0bcbc;
+    border: 2px solid #610808;
+}
+
+.cards-grid {
+    display: grid;
+    /* grid-template-columns: repeat(2, 320px); */
+    /* grid-template-rows: repeat(2, 2fr); */
+    gap: 32px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.featuresGrid, cards-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 4fr));
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    padding: 50px;
+    background: #f0f0f0;
+}
+
+.card {
+    background: #d8c4c4;
+    border-radius: 16px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+    padding: 48px 40px 40px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.cardImage {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-bottom: 16px;
+}
+
+.cardTitle {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.cardDescription {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 12px;
+}
+
+.cardText {
+    font-size: 0.95rem;
+    color: #444;
+    margin-bottom: 18px;
+}
+
+.cardButton {
+    padding: 8px 20px;
+    background: #64060e;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.cardButton:hover {
+    background: #f80b1f;
+}
+
+@media (max-width: 700px) {
+    .cards-grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
+    }
+}

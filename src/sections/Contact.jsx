@@ -1,34 +1,21 @@
 import React from 'react';
-import styles from './Features.module.css';
+import styles from './Contact.module.css';
 
 const features = [
     {
         image: '/assets/hall1.jpg',
-        title: 'Banquet Hall',
+        title: 'Spacious Design',
         description: 'Ample room for all your guests.',
-        text: '5,000 seater capacity with controled weather features, $10/hr.',
-        button: 'Book Now',
+        text: 'Our tents provide a comfortable and open environment for any event.',
+        button: 'Available',
     },
-    {
-        image: "/assets/hall2.jpg",
-        title: 'Rose Garfen Hall',
-        description: 'Stay protected in any season.',
-        text: '2,000 seater Engineered to withstand rain, wind, and sun for year-round use. $8/hr',
-        button: 'Book Now',
-    },
-    {
-        image: '/assets/hall3.png',
-        title: 'Party Tent',
-        description: '1,500 saeter capacity, Quick and hassle-free installation.',
-        text: 'Set up your party tent in minutes with our intuitive design. $5/hr',
-        button: 'Book Now',
-    },
+    
     {
         image: '/assets/hall4.jpg',
-        title: 'Customizable Hall',
+        title: 'Customizable',
         description: 'Personalize for your event.',
-        text: 'Choose from a variety of sizes, colors, and accessories. $10/hr',
-        button: 'Book Now',
+        text: 'Choose from a variety of sizes, colors, and accessories.',
+        button: 'Available',
     },
 ];
 

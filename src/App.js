@@ -3,8 +3,10 @@ import React from 'react';
 import Header from './components/Header';
 import Hero from './sections/Hero';
 import Features from './sections/Features';
-// import Events from './sections/Events';
-// import Testimonials from './sections/Testimonials';
+import Events from './sections/Events';
+import Contact from './sections/Contact';
+import Testimonials from './sections/Testimonials';
+// import Books from './sections/Books';
 import Footer from './components/Footer';
 
 
@@ -15,8 +17,10 @@ function App() {
       <main>
        <Hero />
         <Features />
-        {/* <Events /> */}
-        {/* <Testimonials /> */}
+        <Events />
+        <Contact />
+        <Testimonials />
+        {/* <Books /> */}
       </main>
       <Footer />
     </>

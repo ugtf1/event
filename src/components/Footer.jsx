@@ -5,7 +5,7 @@ const Footer = () => (
     <footer className={styles.footer}>
         <div className={styles.container}>
             <p className={styles.text}>
-                &copy; {new Date().getFullYear()} Party Tent Demo. All rights reserved.
+                &copy; {new Date().getFullYear()} Safe Haven. All rights reserved.
             </p>
         </div>
     </footer>
