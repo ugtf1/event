@@ -11,7 +11,7 @@ const slideInRight = keyframes`
   to   { opacity: 1; transform: translateX(0); }
 `;
 const pulse = keyframes`
-  0%, 100% { box-shadow: 0 0 0 0 rgba(98, 0, 238, 0.4); }
+  0%, 100% { box-shadow: 0 0 0 0 rgba(238, 0, 0, 0.4); }
   50%      { box-shadow: 0 0 0 10px rgba(98, 0, 238, 0); }
 `;
 
@@ -66,8 +66,8 @@ const Input = styled.input`
   transition: border-color 0.3s, box-shadow 0.3s;
   &:focus {
     outline: none;
-    border-color: #6200ee;
-    box-shadow: 0 0 0 3px rgba(98,0,238,0.2);
+    border-color: #af1a1aff;
+    box-shadow: 0 0 0 3px rgba(31, 5, 5, 0.2);
   }
 `;
 
@@ -80,13 +80,13 @@ const TextArea = styled.textarea`
   transition: border-color 0.3s, box-shadow 0.3s;
   &:focus {
     outline: none;
-    border-color: #6200ee;
-    box-shadow: 0 0 0 3px rgba(98,0,238,0.2);
+    border-color: #3f0707ff;
+    box-shadow: 0 0 0 3px rgba(238, 0, 0, 0.2);
   }
 `;
 
 const Button = styled.button`
-  background: #6200ee;
+  background: #410606ff;
   color: #fff;
   padding: 0.75rem 1.5rem;
   border: none;

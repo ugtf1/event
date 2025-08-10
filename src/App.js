@@ -11,7 +11,6 @@ import Testimonials from './sections/Testimonials';
 import Footer from './components/Footer';
 import CardsContainer from './sections/CardsContainer';
 import EventHallBookingCalendar from './sections/EventHallBookingCalendar';
-import Testimonialss from './sections/Testimonialss';
 import ContactUs from './sections/ContactUs';
 
 
@@ -42,10 +41,7 @@ function App() {
         </div>
         <Testimonials />
         {/* <Books /> */}
-        <div>
-      <h1>What Our Clients Say</h1>
-      <Testimonialss />
-    </div>
+      
         <ContactUs />
       </main>
       <Footer />

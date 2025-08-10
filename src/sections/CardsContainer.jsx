@@ -158,7 +158,7 @@ const CardsContainer = () => {
             We offer a variety of halls for your events. Whether it's a wedding, party, or corporate event, we have the perfect space for you. Book now to secure your date!
           </Paragraph>
         </div>
-        <Button onClick={() => alert('Button clicked!')}>Click Me</Button>
+        <Button onClick={() => alert('Button clicked!')}>Book Now</Button>
       </LeftCard>
 
       <RightCard>
