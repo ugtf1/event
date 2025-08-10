@@ -106,6 +106,7 @@ function generateMonthMatrix(year, month) {
     weeks.push(week);
   }
 
+  <h1>Our Event Hall Availability</h1>
   return weeks;
 }
 

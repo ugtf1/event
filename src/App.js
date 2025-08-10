@@ -1,6 +1,6 @@
 // src/App.js
 import React from 'react';
-import styles from './App.css';
+// import styles from './App.css';
 import Header from './components/Header';
 import Hero from './sections/Hero';
 import Features from './sections/Features';
@@ -14,8 +14,6 @@ import EventHallBookingCalendar from './sections/EventHallBookingCalendar';
 import ContactUs from './sections/ContactUs';
 
 
-
-
 function App() {
 
 // Sample booked dates in 'YYYY-MM-DD' format
@@ -25,6 +23,8 @@ function App() {
   ];
 
   return (
+    
+      
     <>
       <Header />
       <main>
@@ -32,7 +32,7 @@ function App() {
         <Features />
         <Events />
         <div>
-      <h1>Our Event Hall Availability</h1>
+      {/* <h1>Our Event Hall Availability</h1> */}
       <EventHallBookingCalendar bookedDates={bookedDates} />
       </div>
         <Contact />
