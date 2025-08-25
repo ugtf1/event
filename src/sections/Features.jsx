@@ -41,7 +41,14 @@ const Features = () => (
                     <h3 className={styles.cardTitle}>{feature.title}</h3>
                     <h4 className={styles.cardDescription}>{feature.description}</h4>
                     <p className={styles.cardText}>{feature.text}</p>
-                    <button className={styles.cardButton}>{feature.button}</button>
+                    <a 
+                        href="https://eventback2.onrender.com" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className={styles.cardButton}
+                    >
+                        {feature.button}
+                    </a>
                 </div>
             ))}
         </div>
