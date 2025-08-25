@@ -10,17 +10,12 @@ import Testimonials from './sections/Testimonials';
 // import Books from './sections/Books';
 import Footer from './components/Footer';
 import CardsContainer from './sections/CardsContainer';
-import EventHallBookingCalendar from './sections/EventHallBookingCalendar';
 import ContactUs from './sections/ContactUs';
 
 
 function App() {
 
 // Sample booked dates in 'YYYY-MM-DD' format
-  const bookedDates = [
-    '2025-08-05', '2025-08-12', '2025-09-01',
-    '2025-09-18', '2025-10-10', '2025-11-23'
-  ];
 
   return (
     
@@ -33,7 +28,7 @@ function App() {
         <Events />
         <div>
       {/* <h1>Our Event Hall Availability</h1> */}
-      <EventHallBookingCalendar bookedDates={bookedDates} />
+      {/* <EventHallBookingCalendar bookedDates={bookedDates} /> */}
       </div>
         <Contact />
         <div>
