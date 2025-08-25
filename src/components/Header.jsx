@@ -12,7 +12,14 @@ const Header = () => (
         <li><a href="#testimonials">Testimonials</a></li>
       </ul>
     </nav>
-    <button className={styles.cta}>Book Now</button>
+    <a 
+      href="https://eventback2.onrender.com" 
+      target="_blank" 
+      rel="noopener noreferrer" 
+      className={styles.cta}
+    >
+      Book Now
+    </a>
   </header>
 );
 
