@@ -11,7 +11,14 @@ const Events = () => {
                     <p className={styles.description}>
                         Discover the perfect venue for your next celebration. Our halls are designed to make your events memorable, with top-notch amenities and a vibrant atmosphere.
                     </p>
-                    <button className={styles.cta}>Book Now</button>
+                    <a
+                        href="https://eventback2.onrender.com/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className={styles.cta}
+                    >
+                        Book Now
+                    </a>
                 </div>
                 <div className={styles.right}>
                     <img
